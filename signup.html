@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style media="screen">
+      body{
+        font-family: 'Lato', sans-serif;
+        background-color:#63d0d0;
+      }
+      .login{
+        text-align:center;
+      }
+      .title{
+        font-size:70px;
+        color:white;
+      }
+      .blah{
+        margin-top:10px;
+        margin-bottom:10px;
+        width:250px;
+        height:25px;
+        border: 3px solid white;
+        border-radius:3px;
+      }
+      .submit{
+        margin-top:10px;
+        margin-bottom:10px;
+        border: 3px solid #3498db;
+        background-color:#3498db;
+        border-radius:5px;
+        color:white;
+        width:150px;
+        height:35px;
+        font-size:20px
+      }
+      .submit:hover{
+        color:#3498db;
+        background-color:white;
+        transition:0.4s;
+      }
+      a{
+        text-decoration:none;
+        color:#3498db;
+      }
+      a:hover{
+        color:white;
+      }
+    </style>
+    <title>Sign Up to Reno</title>
+  </head>
+  <body>
+    <div class="login">
+      <h1><a class="title" href="index.html">Reno</a></h1>
+      <h1 style="font-size:40px; color:white;">Sign Up</h1>
+      <div>
+        <form class="" action="index.html" method="post">
+          <label for="firstname" style="color:white; font-size:25px;">Enter first name </label>
+          <input class="blah" type="text" name="firstname" value="" placeholder="First name">
+          <br>
+          <label for="lastname" style="color:white; font-size:25px;">Enter last name </label>
+          <input class="blah" type="text" name="lastname" value="" placeholder="Last name">
+          <br>
+          <label for="email" style="color:white; font-size:25px;">Enter mail id   </label>
+          <input class="blah" type="email" name="email" value="" placeholder="Email id">
+          <br>
+          <label for="sex" style="color:white; font-size:25px;">Sex<span style="color:#63d0d0;">fsdsfdgd</span></label>
+          <input type="radio" name="sex" value="male">
+          <label for="male" style="color:white; font-size:25px;">Male</label>
+          <input type="radio" name="sex" value="female">
+          <label for="sex" style="color:white; font-size:25px;">Female</label>
+          <br>
+          <label for="password" style="color:white; font-size:25px;">Enter new Password </label>
+          <input class="blah" type="password" name="password" value="" placeholder="Enter password">
+          <br>
+          <label for="password" style="color:white; font-size:25px;">Confirm new Password </label>
+          <input class="blah" type="password" name="password" value="" placeholder="Confirm password">
+          <br>
+          <label for="password" style="color:white; font-size:25px;">Do you accept our <a href="terms.html">terms and conditions</a>?</label>
+          <input type="checkbox" name="password" value="">
+          <br>
+          <input class="submit" type="submit" name="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

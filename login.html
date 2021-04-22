@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style media="screen">
+      body{
+        font-family: 'Lato', sans-serif;
+        background-color:#63d0d0;
+      }
+      .login{
+        text-align:center;
+      }
+      .title{
+        font-size:100px;
+        color:white;
+      }
+      .blah{
+        margin-top:10px;
+        margin-bottom:10px;
+        width:250px;
+        height:25px;
+        border: 3px solid white;
+        border-radius:3px;
+      }
+      .submit{
+        margin-top:10px;
+        margin-bottom:10px;
+        border: 3px solid #3498db;
+        background-color:#3498db;
+        border-radius:5px;
+        color:white;
+        width:150px;
+        height:35px;
+        font-size:20px
+      }
+      .submit:hover{
+        color:#3498db;
+        background-color:white;
+        transition:0.4s;
+      }
+      a{
+        text-decoration:none;
+        color:#3498db;
+      }
+      a:hover{
+        color:white;
+      }
+    </style>
+    <title>Login to Reno</title>
+  </head>
+  <body>
+    <div class="login">
+      <h1><a class="title" href="index.html">Reno</a></h1>
+      <h1 style="font-size:70px; color:white;">Login</h1>
+      <div>
+        <form class="" action="index.html" method="post">
+          <label for="username" style="color:white; font-size:25px;">Username</label><br>
+          <input class="blah" type="text" name="username" value="" placeholder="Enter username" >
+          <br>
+          <label for="password" style="color:white; font-size:25px;">Password</label><br>
+          <input class="blah" type="password" name="password" value="" placeholder="Enter password">
+          <br>
+          <input class="submit" type="submit" name="submit" value="Submit">
+        </form>
+      </div>
+      <p>New User?<a href="signup.html"> Register Here</a></p>
+    </div>
+  </body>
+</html>
